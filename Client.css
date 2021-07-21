@@ -1,0 +1,22 @@
+/**
+    Created By: IT Serenity
+    =======================================================================
+    Original Developer: Rob Couch
+    =======================================================================
+    Purpose: Cascading Style Sheets Supporting Same Named .php Script
+    =======================================================================
+    Modifications: Date - Developer - Description Of Coding Change
+    -----------------------------------------------------------------------
+    2)
+    -----------------------------------------------------------------------
+    1)
+**/
+
+html, body
+{
+  font-family: Helvetica,sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

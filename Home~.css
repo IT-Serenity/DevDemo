@@ -1,0 +1,224 @@
+/**
+    Created By: IT Serenity
+    =======================================================================
+    Original Developer: Rob Couch
+    =======================================================================
+    Purpose: Cascading Style Sheets Supporting Same Named .php Script
+    =======================================================================
+    Modifications: Date - Developer - Description Of Coding Change
+    -----------------------------------------------------------------------
+    2)
+    -----------------------------------------------------------------------
+    1)
+**/
+
+h2
+{
+    color: #0088cc;
+    margin: 3px 6px;
+    text-align: center;
+}
+
+
+#Page
+{
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+
+#ListDIV
+{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+
+#ListDIV h3
+{
+    display: inline-block;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+
+#Searching
+{
+    float: right;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 2px;
+    position: relative;
+}
+
+
+#Search
+{
+    width: 260px;
+}
+
+
+#Natural
+{
+    cursor: pointer;
+}
+
+
+.Required
+{
+    color: red ;
+}
+
+
+.List
+{
+    clear: both;
+    border: 1px solid #000000;
+    display: inline-block;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+.thead
+{
+    background-color: #ccf2ff;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    word-wrap: nowrap;
+}
+
+
+.thead div
+{
+    border: 1px solid #000000;
+    display: inline-block;
+    width: 150px;
+}
+
+
+.thead div:hover
+{
+    background-color: #ff6666;
+}
+
+
+.tbody
+{
+    word-wrap: none;
+}
+
+
+.tbody
+{
+    vertical-align: top;
+}
+
+
+.bodyrow div
+{
+    border: 1px solid #ffffff;
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+}
+
+
+.bodyrow:hover
+{
+    background-color: #e3e3e3;
+}
+
+
+.cellcenter
+{
+    text-align: center;
+}
+
+
+.cellwidth
+{
+    width: 150px;
+}
+
+
+#FormHead h3
+{
+    display: inline-block;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+
+#CustomerID
+{
+    float: right;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+
+.priority
+{
+    width: 66px !important;
+}
+
+
+.email
+{
+    width: 200px !important;
+}
+
+
+.emaildots
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.buttons
+{
+    text-align: center;
+}
+
+
+.buttons button
+{
+    width: 140px;
+}
+
+
+.buttons button:hover
+{
+    background-color: #99ffd6;
+}
+
+
+#Customer input
+{
+    background-color: #0088cc;
+    color: snow;
+    padding: 5px 5px;
+    width: calc(100% - 15px);
+}
+
+
+#Customer input::placeholder
+{
+    color: snow;    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    opacity: 1;       /* Firefox */
+}
+
+#Customer select
+{
+    background-color: #0088cc;
+    color: snow;
+    padding: 5px 5px;
+}
+
+
